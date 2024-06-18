@@ -45,4 +45,4 @@
 
 ## Custom Sprites
 
-### If you wish to add custom sprites make a horizontal strip sprite sheet of 4 sprites size 32x32 and add them with in the Graphics folder with the name sprite.png 
+### If you wish to add custom sprites make a horizontal strip sprite sheet of 4 sprites size 32x32 and then put it inside the Graphics folder with the name sprite.png 
