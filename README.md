@@ -1,5 +1,10 @@
 # DPets
-Animated Pets for your desktop (Windows &amp; Linux)
+
+<Badges ref = "https://github.com/Denellyne/PCXSense">
+    <img width = 120 align="left" src="[https://github.com/Denellyne/PCXSense/assets/56112881/1b73b67c-06b4-4b3e-a17d-7b55b6e674d7](https://github.com/Denellyne/DPets/assets/56112881/047b1605-00a5-476f-af11-467aa82cbe1a)">
+<Badges\>
+
+#### *Animated Pets for your desktop (Windows &amp; Linux)*
 
 ## Installation
 
