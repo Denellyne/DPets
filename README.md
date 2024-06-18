@@ -20,7 +20,8 @@
 
 ## Installation
 
-Install Raylib on your system and run the makefile:
+### Install Raylib on your system and run the makefile:
+
   make windowsR -> For Windows
   make linuxR -> For Linux
 
