@@ -14,14 +14,12 @@ renderEngine::renderEngine() {
                  FLAG_WINDOW_TOPMOST); // Hide border/titlebar; omit
 
   SetTargetFPS(FPS);
+  
   Image image = LoadImage("Graphics/sprite.png");
-
   sprite = LoadTextureFromImage(image);
-
   UnloadImage(image);
 
   image = LoadImage("Graphics/DPets.png");
-
   SetWindowIcon(image);
   UnloadImage(image);
 
@@ -64,20 +62,20 @@ void renderEngine::nextFrame() {
   accumulator = (accumulator + 1) % (FPS >> 2);
 
   if (accumulator == 0) {
-    frame++;
-    if (frame >= 4)
-      frame = 0;
-    spriteFrame.x = (float)(32 * frame);
+    frame = (frame+1) % 4;
+    spriteFrame.x = 32.0f * frame;
   }
 }
 
 void renderEngine::render() {
   while (!WindowShouldClose()) {
-    BeginDrawing();
 
+    BeginDrawing();
     DrawTexturePro(sprite, spriteFrame, spriteFrameOutput, {0, 0}, 0.0f, WHITE);
     EndDrawing();
+
     ClearBackground(BLANK);
+
     nextFrame();
   }
 }
