@@ -6,6 +6,8 @@
 
 #### *Animated Pets for your desktop (Windows &amp; Linux)*
 
+<hr>
+
 ## Installation
 
 Install Raylib on your system and run the makefile:
