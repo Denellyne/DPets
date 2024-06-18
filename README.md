@@ -1,5 +1,5 @@
 # DPets
-Pets for your desktop (Windows &amp; Linux)
+Animated Pets for your desktop (Windows &amp; Linux)
 
 ## Installation
 
@@ -11,9 +11,9 @@ Install Raylib on your system and run the makefile:
 
 ![image](https://github.com/Denellyne/DPets/assets/56112881/b9ff23ae-452e-41a9-a3ba-dbe58e3fb550)
 
-![image](https://github.com/Denellyne/DPets/assets/56112881/c2ac4f53-74e3-4194-a69a-6a0069624ace)
+![cat](https://github.com/Denellyne/DPets/assets/56112881/fb9698f9-8d72-4608-bad1-607d38431d4c)
 
-![image](https://github.com/Denellyne/DPets/assets/56112881/8c46ff47-8ea8-4ea2-a3cc-83954d4e9848)
+![pumba](https://github.com/Denellyne/DPets/assets/56112881/de60ef53-858b-4ab2-a6c4-a40f707d05f2)
 
 These 2 sprites come with the project and are free to use as long as you give credit for them.
 
