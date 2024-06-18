@@ -8,6 +8,8 @@
 
 <hr>
 
+&nbsp;
+
 ## Installation
 
 Install Raylib on your system and run the makefile:
